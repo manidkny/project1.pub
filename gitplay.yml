@@ -1,0 +1,9 @@
+---
+- name: creating my new cool project
+  hosts: all
+  tasks:
+    - name: Adding a user
+      user:
+        name: mani
+        state: present
+ 
